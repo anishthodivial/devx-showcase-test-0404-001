@@ -12,7 +12,7 @@ metadata:
     argocd/app-name: "devx-showcase-test-0404-001"
     sonarqube.org/project-key: "devx-showcase-test-0404-001"
     jenkins.io/job-full-name: "devx-showcase-test-0404-001_App_Pipeline"
-    #github.com/project-slug: kbmdev/devx-showcase-test-0404-001
+    github.com/project-slug: kbmdev/devx-showcase-test-0404-001
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: "devx-showcase-test-0404-001"
 spec:
