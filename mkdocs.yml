@@ -1,0 +1,7 @@
+site_name: "devx-showcase-test-0404-001"
+docs_dir: docs
+site_description: "Devx Showcase Test 0404 001"
+nav:
+  - Introduction: index.md
+plugins:
+  - techdocs-core

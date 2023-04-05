@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "devx-showcase-test-0404-001"
+  description: "Devx Showcase Test 0404 001"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://devx-showcase-test-0404-001.mtk8s.io
+  annotations:
+    argocd/app-name: "devx-showcase-test-0404-001"
+    sonarqube.org/project-key: "devx-showcase-test-0404-001"
+    jenkins.io/job-full-name: "devx-showcase-test-0404-001_App_Pipeline"
+    #github.com/project-slug: kbmdev/devx-showcase-test-0404-001
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "devx-showcase-test-0404-001"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-founders"
